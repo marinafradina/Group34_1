@@ -1,0 +1,42 @@
+h2 {
+    font-size: 36px;
+    
+}
+/* @font-face{
+    font-family: 'Mansalva-Regular';
+    src:  url('./Mansalva-Regular.ttf'); */
+
+h1 {
+    color: blue;
+    font-size: 48px;
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Mansalva-Regular';
+    src: url('./Mansalva-Regular.ttf');
+    
+}
+img {
+    width: 480px;
+    height: 360px;
+    border: 3px solid black;
+    border-color: blue;
+    border-radius: 50%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   /* border-style: solid;
+    border-color: black; */
+}
+#probo {
+    color: rebeccapurple;
+}
+
+/* a {
+    text-decoration: none;
+} */
