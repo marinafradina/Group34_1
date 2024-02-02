@@ -33,7 +33,7 @@ nav li {
     display: inline;
     border: 2px solid black;
     border-radius: 5px;
-    background-color: rgba(204, 3, 35, 0.5);
+    background-color: rgba(284, 3, 35, 0.5);
     cursor: pointer;
 } 
 h1 {
@@ -51,9 +51,10 @@ h1 {
     float: right;
     width: 50%;
     margin: 5px 5px 0;
-}
-img {
-    width: 100%;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .farGalaxy {
     font-size: 2em;
@@ -61,26 +62,17 @@ img {
     line-height: 1.4;
     text-align: justify;
 }
-.right {
+.right>table {
     border: 1px solid yellow;
     border-radius: 0 0 15px 15px;
 }
-.right h2 {
-    text-align: center;
-}
-.right img {
-    width: 33%;
-    float: left;
-    margin: 0.15%;
-}
-
 .left img {
     box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
 
-}.button {
+}.botton {
     border: 2px solid black;
     border-radius: 5px;
-    background-color: rgba(204, 3, 35, 0.5);
+    background-color: rgba(284, 3, 35, 0.5);
     cursor: pointer;
     width: 11 em;
     height: 2em;
@@ -88,7 +80,7 @@ img {
     left: 22em;
     top: 2em;
 }
-.button>p {
+.botton>p {
     font-size: 0.8em;
     text-align: center;
 
@@ -98,9 +90,9 @@ img {
     color: black;
     font-variant: small-caps;
  }
- .buttonLeft {
+ .bottonLeft {
     border-bottom-left-radius: 15px;
  }
- .buttonRight {
+ .bottonRight {
     border-bottom-right-radius: 15px;
  }

@@ -89,9 +89,9 @@ img {
     color: black;
     font-variant: small-caps;
  }
- .buttonLeft {
+ .bottomLeft {
     border-bottom-left-radius: 15px;
  }
- .buttonRight {
+ .bottomRight {
     border-bottom-right-radius: 15px;
  }
